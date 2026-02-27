@@ -1,4 +1,4 @@
 baseURL = 'https://engineering-portfolio.pages.dev'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Jay's Personal Engineering Portfolio'
 theme = 'ananke'
