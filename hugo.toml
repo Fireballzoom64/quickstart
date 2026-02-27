@@ -1,20 +1,25 @@
+baseURL = "https://engineering-portfolio.pages.dev/"
+languageCode = "en-us"
+title = "Jay's Personal Engineering Portfolio"
+theme = "ananke"
+
 [params]
   # Basic Colors (Engineering Style)
-  background_color_class = "bg-near-black" # Dark professional look
+  background_color_class = "bg-near-black"
   text_color_class = "text-white"
   
-    description = "Junior ECE Student | Focusing on Digital Systems and Control Theory."
-  # This text appears on your homepage as the introduction
+  # This appears as your homepage introduction
+  description = "Junior ECE Student | Focusing on Digital Systems and Control Theory."
   recent_posts_number = 1
 
-  # Fonts: Ananke uses System Fonts by default for speed
-  # You can customize these if you use an asset folder, but system-sans is standard
+  # Fonts
   body_classes = "avenir next, sans-serif" 
   
-  # Sidebar/Menu Configuration
+  # Tells Hugo which folders to show on the homepage
   main_sections = ["posts", "projects"]
 
-  [[menu.main]]
+# Menu configuration (Must be outside of [params])
+[[menu.main]]
   name = "Projects"
   url = "/projects/"
   weight = 10
