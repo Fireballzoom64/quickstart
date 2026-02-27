@@ -1,5 +1,13 @@
-+++
-date = '2026-02-26T19:28:21-06:00'
-draft = false
-title = 'My First Post'
-+++
+---
+title: "Project Overview"
+date: 2026-02-26
+draft: false
+---
+
+## Labwork
+Welcome to my technical documentation. This space is dedicated to my journey in Engineering, specifically focused on Digital Design, Signal Processing, and Control Systems.
+
+### Current Objectives:
+* **System Stability:** Analyzing transfer functions in MATLAB.
+* **VHDL Implementation:** Refining electronic lock logic for DE1 boards.
+* **Photography:** Documenting the restoration of my 2009 Ford Mustang.
